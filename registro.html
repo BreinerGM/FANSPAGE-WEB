@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5beddf2063.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/soccer-uniform/512/barcelona.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Lora:wght@600&family=Nova+Square&display=swap" rel="stylesheet">
+    <title>FansPage - Registro</title>
+</head>
+<body class="home-body">
+    <header class="header">
+        <div class="redess">
+            <div class="redess-logos">
+                <div class="redess-logos__img">
+                    <img src="https://th.bing.com/th/id/R.fbc1b2c43baafdf65f8a2ee227cdda77?rik=BQMSmyx8lMtt%2fg&riu=http%3a%2f%2fpngimg.com%2fuploads%2ffcb_logo%2ffcb_logo_PNG22.png&ehk=c4g%2baEDUwY6eQhTOBFHDgc3Vd2NDgDj0qgGBf9wTMB4%3d&risl=&pid=ImgRaw&r=0" alt="LOGO BARCELONA">
+                </div>
+                <a href="index.html">FANS PAGE</a>
+            </div>
+            <div class="redess-iconos">
+                <a href="https://www.instagram.com/fcbarcelona/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/fcbarcelona/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/FCBarcelona" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- INICIO NAV -->
+    <nav class="nav-principal">
+        <p>MÉS 
+            <span> QUE </span>
+            <span>UN </span>
+            <span>CLUB</span>
+        </p>
+        <div class="nav-enlaces">
+            <ul>
+                <li><a href="#">noticias</a></li>
+                <li><a href="#">comunidad</a></li>
+                <li><a href="#">plantilla</a></li>
+                <li><a href="#">sobre nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="nav-decoration"></div>
+    <!-- FIN NAV -->
+
+    <!-- MAIN -->
+    <main class="principal">
+        <div class="principal-imagen">
+            <img src="/imagenes/pique_png.png" alt="pique">
+        </div>
+        
+        <form action="#">
+            <fieldset class="fiel">
+                <div class="contenedor-formulario">
+                    <div class="contenedor-formulario__text">
+                        <h1>registro</h1>
+                        <p>en el siguiente formulario se le solicitarán datos al usuario para ser registrado en la plataforma.</p>
+                    </div>
+                    <div class="contenedor-formulario__labels">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" required>
+                        </div>
+                        <div class="campo">
+                            <label for="edad">Edad</label>
+                            <input type="number" name="edad" id="edad" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="campo">
+                            <label for="numero">Telefono</label>
+                            <input type="tel" name="numero" id="numero" required>
+                        </div>
+                        <div class="campo">
+                            <label for="valido">Acepta terminos y condiciones</label>
+                            <input type="checkbox" name="valido" id="valido" value="si" required>
+                        </div>    
+                        <input type="submit" name="envio" id="envio" class="btn-enviar">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
